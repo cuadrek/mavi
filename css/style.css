@@ -1,0 +1,10 @@
+
+p.mensajeTiny {margin-top:0}
+#testdiv {width:600px; margin:0 auto; border:1px solid #ccc; padding:20px 25px; background:#fff}
+
+#tinybox {position:absolute; display:none; padding:0; background:#fff url(../imagenes/preload.gif) no-repeat 50% 50%; border:0; z-index:2000}
+#tinymask {position:absolute; display:none; top:0; left:0; height:100%; width:100%; background:#000; z-index:1500}
+#tinycontent {background:#FFF; border:0; padding:0;}
+
+.buttonTiny {font:14px Georgia,Verdana; margin-bottom:10px; padding:8px 10px 9px; border:1px solid #ccc; background:#eee; cursor:pointer}
+.buttonTiny:hover {border:1px solid #bbb; background:#e3e3e3}

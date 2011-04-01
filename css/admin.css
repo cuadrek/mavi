@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:0;
+	margin:0;
+	background-image:url(../imagenes/fondo_dark.jpg);
+	
+}
+#contenedor_absoluto
+{
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	min-width:800px;
+	min-height:600px;
+}
+
+#contenBottom{
+	position:fixed;
+	bottom:0px;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+#contenTopR{
+	width:60%;
+	float:right;
+}
+#contenTopL{
+	width:20%;
+	float:right;
+}
+
+#contenTopL{
+	padding-top:13px;
+	padding-right:20px;
+	text-align:right;
+}
+
+#contenTopL, #contenTopR{
+	margin-bottom:65px;
+}
+#contenTopR{
+	height:auto px;
+}
+
+#contenTopR ul.principal{
+	margin:0;
+	padding:5px;
+	padding-left:15px;
+	padding-top:15px;
+	background-color:#1F252B;
+	background-image:url(../imagenes/borde_menu.jpg);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+#contenTopR ul.principal li{
+	display:inline;
+	list-style:none;
+	margin:0;
+	padding:5px;
+	padding-top:15px;	
+}
+
+#contenTopR ul.principal li:hover{
+	background-color:#990000;
+}
+
+#contenTopR ul.principal li a{
+	padding:5px;
+	width:40px;
+	padding-top:15px;
+	color:#FFFFFF;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+}
+#contenCenter{
+	
+	height:200px;
+	clear:both;
+}
+#contenBottom{
+	position:absolute;
+	bottom:0px;
+	height:65px;
+	border-top:1px #CCCCCC solid;
+	background-color:#1F252B;
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:11px;
+}
+
+
+#contenCenterL, #contenCenterR{
+	float:left;
+	height:170px;
+} 
+
+#contenCenterL{
+	width:55%;
+	background-image:url(../imagenes/fondo_transparente.png);
+}
+#contenCenterR{
+	width:45%;
+	background-image:url(../imagenes/borde.jpg);
+	background-position:left;
+	background-repeat:repeat-y;
+	background-color:#721005;
+}
+
+#contenCenterL table.login{
+	margin-top:20px;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+
+#contenCenterL table.login tr td{
+	padding:3px;
+}
+
+#contenCenterL table.login input, #contenCenterL table.login select
+{
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	padding:2px;
+}
+
+#contenCenterL table.login input.btn
+{
+	border:1px #999999 solid;
+	padding:2px;
+	width:70px;
+}

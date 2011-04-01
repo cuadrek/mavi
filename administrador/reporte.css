@@ -1,0 +1,125 @@
+*{
+	margin:0px;
+	padding::0px;
+	font-family:arial;
+	font-size:12px;
+	line-height:20px;
+}
+
+body{
+	/*text-align:center;*/
+}
+
+#general{
+	width:780px;
+	height:auto;
+	margin: 10px auto;
+}
+
+	#cabeza{
+		width:inherit;
+		height:100px;
+	}
+	
+	#contenido{
+		width:inherit;
+		height:auto;
+	}
+	
+		.pregunta{
+			width:inherit;
+			height:auto;
+			border:solid 1px #7D9D5C;
+            background-color:#E5E5E5;
+			margin:5px 0px;
+		}
+		
+			.pregunta table{
+				width:inherit;
+			}
+			
+			.texto{
+				text-align:left;
+			}
+		
+			.texto a{
+				font-size:14px;
+				font-weight:bold;
+				font-style:italic;
+				text-align:left;
+				color:#000000;
+				text-decoration:none;
+			}
+			
+			.texto a:hover{
+				font-size:14px;
+				font-weight:bold;
+				font-style:italic;
+				border-bottom: dotted 1px #000000;
+				text-align:left;
+				color:#333333;
+			}
+			
+			.tipo{
+				color:#000000;
+			}
+			
+			.opcion{
+				text-align:left;
+				color:#006600;
+			}
+			
+			.opcionCorrecta{
+				font-weight:bold;
+				text-decoration:underline;
+				text-align:left;
+				color:#006600;
+			}
+			
+		.equipo{
+			width:600px;
+			height:auto;
+			border:solid 1px #7D9D5C;
+            background-color:#E5E5E5;
+			margin:5px 0px 5px 100px;
+/*			margin:5px 0px 5px 150px;*/
+		}
+		
+			.nombre{
+				text-align:left;
+			}
+			
+				.nombre a{
+					font-size:14px;
+					font-weight:bold;
+					text-align:left;
+					color:#000000;
+					text-decoration:none;
+				}
+				
+				.nombre a:hover{
+					font-size:14px;
+					font-weight:bold;
+					border-bottom: dotted 1px #000000;
+					text-align:left;
+					color:#333333;
+				}
+			
+			.tiempo{
+				text-align:left;
+				font-weight:bold;
+				font-size:14px;
+				font-style:italic;
+				color:#FF9900;
+			}
+			
+			.opcion-equipo{
+				text-align:left;
+				font-weight:bold;
+				color:#006600;
+			}
+	
+	#pie{
+		width:inherit;
+		height:100px;
+	}

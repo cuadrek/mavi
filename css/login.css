@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+table.login{
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	margin-right:20px;
+}
+
+table.login tr td{
+	padding:4px;
+}
+
+table.login input
+{
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	padding:2px;
+}
+
+table.login input.btn
+{
+	border:1px #000 solid;
+	padding:2px;
+	width:70px;
+	color:#000;
+	background-image:url(../imagenes/fondo_boton.jpg);
+}
+
+#contenidoLogin{
+	padding:5px;
+	padding-left:20px;
+	margin-bottom:10px;
+	font-size:13px;
+	background-image:url(../imagenes/linea_vertical.png);
+	background-position:left;
+	background-repeat:repeat-y;
+}
+
+#contenidoLogin h1{
+	font-size:24px;
+	color:#333333;
+}
+
+#centrar{
+	border:1px #928D7D solid;
+	margin:5px auto 5px auto;
+	width:800px;
+	min-width:300px;
+	padding:10px;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-family:Tahoma, Geneva, sans-serif;
+	background-color:#EEEBE2;
+}
+#nota{
+	width:700px;
+	margin:auto auto auto auto;
+	margin-top:15px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#000;
+	font-size:12px;
+	margin-top:25px;
+	padding-top:10px;
+	text-align:center;
+}

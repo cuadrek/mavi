@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lineaLateral{
+	border-left:1px #FFF solid;
+	border-top:1px #FFF solid;
+}
+ul.mm_competidor{
+	padding-left:0;
+	padding-right:0;
+	padding-bottom:9px;
+	padding-top:10px;
+	margin:0;
+	border-top:1px #FFF solid;
+	list-style:none;
+}
+
+ul.mm_competidor li{
+	display:inline;
+	padding:inherit;
+	padding-left:0;
+	padding-right:0;
+	border-right:1px #999 solid;
+	margin:0;
+}
+
+span#usuario{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:10px;
+	color:#069;
+	margin:0;
+	cursor:pointer;
+}
+ul.mm_competidor li.displayMenu{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#666;
+}
+
+ul.mm_competidor li a{
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:10px;
+	margin:0;
+}
+
+ul.mm_competidor li a:hover{
+	color:#900;
+}
+
+ul.mm_competidor subSeleccionado 
+{
+	color:#900;
+}
+
+
+#competencia_principal{
+	float:left;
+	padding:0;
+	width:650px;
+	margin:0;
+}
+/*no esta es la barrita*/
+#competencia_catalogo{
+	float:left;
+	padding:0;
+	width:900px;
+	margin:0;
+	height:900px;
+}
+
+#competencia_centro{
+	border-top:1px #FFF solid;
+	padding:15px;
+}
+#competencia_menu{
+	padding:0;
+	background-image:url(../imagenes/fondo_submenu.jpg);
+	background-repeat:repeat-x;
+	border-bottom:1px #979797 solid;
+}
+
+#competencia_lateral{
+	float:left;
+	width:149px;
+	min-height:450px;
+	background-color:#DCDCDC;
+	border-left:1px #999 solid;
+	margin:0;
+	padding:0;
+}
+
+#competencia_lateral ol{
+	list-style:none;
+	margin:0;
+	padding:0;
+	left:-5px;
+	padding-top:7px;
+}
+
+#competencia_lateral ol li{
+	padding:4px;
+	padding-left:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#separador{
+	background-image:url(../imagenes/linea.png);
+	background-position:0 2px;
+	background-repeat:repeat-x;
+	margin:0;
+	padding:0;
+}
+
+span.default > p{
+	font-size:12px;
+}
+
+
+#reloj{
+	padding:10px;
+}
+#competencia_fondo{
+	clear:both;
+	border-bottom:1px #000 solid;
+	height:1px;
+}
+
+span.indicador{
+	color:#069;
+	font-weight:bold;
+}
+
+span.tema_maraton{
+	color:#069;
+}
+
+p > span#pregunta{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	display:block;
+	padding-bottom:6px;
+}
+
+p > span#opcionA, p > span#opcionB, p > span#opcionC, p > span#opcionD{
+	padding-top:11px;
+	padding-bottom:1px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:17px;
+	font-weight:normal;
+}

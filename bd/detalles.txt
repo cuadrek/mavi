@@ -1,0 +1,9 @@
+No existe el archivo error.php
+
+
+<?
+	$host  = $_SERVER['HTTP_HOST'];
+	$uri  = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
+	$base = "http://" . $host . $uri;
+	echo "BASE: $base,   URI: $uri,   " . dirname($_SERVER['PHP_SELF']);
+?>

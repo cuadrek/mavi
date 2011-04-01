@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+#divTablaReactivos{
+	border:1px #000 solid;
+	overflow-x:scroll;
+	max-height:500px;
+	margin-bottom:25px;
+	margin-top:25px;
+	background-color:#FFF;
+}
+
+table.reactivos td.hPrin{
+	font-weight:bold;
+	min-width:80px;
+	padding:3px;
+	text-align:center;
+}
+
+table.reactivos td{
+	padding:3px;
+	text-align:left;
+}
+
+table.reactivos td{
+	border-bottom:1px #999 solid;
+	border-right:1px #999 solid;
+	
+}
+
+table.reactivos tr:hover{
+	background-color:#D0D7E5;
+}
+
+#divOpcion{
+	float:right;
+}

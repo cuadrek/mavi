@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+#marco{
+	padding:10px;
+	min-height:450px;
+}
+
+#panelPrincipal{
+	margin:5px auto auto auto;
+	padding:0;
+	width:800px;
+	background-color:#EEEBE2;/*#C5C0B0*/
+	border:1px #928D7D solid;
+	min-width:600px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	clear:both;
+	/*-moz-border-radius:6px; 
+	-webkit-border-radius:6px;*/
+}
+/*aqui va la barritaaa XD*/
+#panelCatalogos{
+	margin:5px auto auto auto;
+	padding:0;
+	width:900px;
+	background-color:#EEEBE2;/*#C5C0B0*/
+	border:1px #928D7D solid;
+	min-width:600px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	clear:both;
+	/*-moz-border-radius:6px; 
+	-webkit-border-radius:6px;*/
+}
+
+#panelPrincipal_top{
+	border:0;
+	margin:auto auto 5px auto;
+	width:800px;
+	background-image:url(../imagenes/indicadorGlobo.png);
+	background-repeat:no-repeat;
+	padding:15px;
+	padding-top:7px;
+	padding-bottom:29px;
+}
+
+h1{
+	padding:0;
+	margin:0;
+	font-family:"Times New Roman", Times, serif;
+	font-size:24px;
+	font-weight:normal;
+	color:#333;
+}
+
+h2{
+	margin-top:2px;
+}
+.barra{
+	padding-bottom:7px;
+	background-image:url(../imagenes/linea.png);
+	background-position:0 19px;
+	background-repeat:repeat-x;
+}
+
+.barrah1{
+	padding-bottom:7px;
+	background-image:url(../imagenes/linea.png);
+	background-position:0 25px;
+	background-repeat:repeat-x;
+}
+
+.formated{
+	color:#333;
+	font-family:"Times New Roman", Times, serif;
+	font-style:italic;
+	font-weight:bold;
+}
+
+p,#panelPrincipal table{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px;
+	color:#333;
+}
+p.pregunta{
+	font-weight:bolder;
+	font-size:140%;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+p.inciso{
+	font-weight:normal;
+	font-size:130%;
+	margin-left:16px;
+}
+span.titulo{
+	font-weight:bold;
+}
+
+ol li{
+	letter-spacing:0.1px;
+	padding:3px;
+}
+
+
+/************************************************************** ESTILO DE BOTON ****************************************************/
+
+a.button {
+    background: transparent url('../imagenes/fondoBotonSpan.png') no-repeat scroll top right;
+    color:#000;
+    display: block;
+	float:left;
+    font: normal 12px arial, sans-serif;
+	font-weight:bold;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.button span {
+    background: transparent url('../imagenes/fondoBoton.png') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+} 
+
+a.button:active {
+    background-position: bottom right;
+    color: #333;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+} 
+
+/************************************************************** ESTILO DE BOTON ****************************************************/
+
+/************************************************************** ESTILO DE BOTON EQUIPO ****************************************************/
+
+a.button2 {
+    background: transparent url('../imagenes/fondoBotonSpan2.png') no-repeat scroll top right;
+    color:#000;
+    display: block;
+	float:left;
+    font: normal 12px arial, sans-serif;
+	font-weight:bold;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.button2 span {
+    background: transparent url('../imagenes/fondoBoton2.png') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+} 
+
+a.button2:active {
+    background-position: bottom right;
+    color: #333;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button2:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+} 
+
+/************************************************************** ESTILO DE BOTON EQUIPO****************************************************/
+
+
+table.datos{
+	background-color:#FFF;
+	border:1px #59554A solid;
+}
